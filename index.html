@@ -106,17 +106,415 @@
             </div>
             <div class="row">
               <div class="ten wide column">
-                <!-- Experience -->
+                <section>
+                  <h3>Experience</h3>
+                  <h6>Now</h6>
+                  <ul class="timeline">
+                    <li class="highlighted">
+                      <p><em>1<sup>st</sup> January 2020 – present</em></p>
+                      <p><strong>Full Stack Developer</strong> at <strong><a href="https://hivecell.io/" rel="external">Ricker Lyman Robotic</a></strong></p>
+                      <ul>
+                        <li class="details">
+                          <input type="checkbox" id="project-4-dependencies">
+                          <label for="project-4-dependencies" class="summary">build, test, and deploy an application written with React + Apollo Client &rarr; Node.js + Express + Postgraphile + PostgreSQL</label>
+                          <div>
+                            <div style="margin-bottom: 0.25em;">
+                              <small><em>(the project is alive, hence backend packages are not listed)</em></small>
+                            </div>
+                            <div class="labels">
+                              <a rel="external" class="label" href="https://npmjs.com/package/@apollo/client">@apollo/client</a>
+                              <a rel="external" class="label" href="https://npmjs.com/package/@auth0/auth0-spa-js">@auth0/auth0-spa-js</a>
+                              <a rel="external" class="label" href="https://npmjs.com/package/@fortawesome/react-fontawesome">@fortawesome/react-fontawesome</a>
+                              <a rel="external" class="label" href="https://npmjs.com/package/@material-ui/core">@material-ui/core</a>
+                              <a rel="external" class="label" href="https://npmjs.com/package/@material-ui/lab">@material-ui/lab</a>
+                              <a rel="external" class="label" href="https://npmjs.com/package/@optimizely/react-sdk">@optimizely/react-sdk</a>
+                              <a rel="external" class="label" href="https://npmjs.com/package/@umijs/hooks">@umijs/hooks</a>
+                              <a rel="external" class="label" href="https://npmjs.com/package/classnames">classnames</a>
+                              <a rel="external" class="label" href="https://npmjs.com/package/date-fns">date-fns</a>
+                              <a rel="external" class="label" href="https://npmjs.com/package/file-saver">file-saver</a>
+                              <a rel="external" class="label" href="https://npmjs.com/package/formik">formik</a>
+                              <a rel="external" class="label" href="https://npmjs.com/package/graphql">graphql</a>
+                              <a rel="external" class="label" href="https://npmjs.com/package/history">history</a>
+                              <a rel="external" class="label" href="https://npmjs.com/package/lodash">lodash</a>
+                              <a rel="external" class="label" href="https://npmjs.com/package/mapbox-gl">mapbox-gl</a>
+                              <a rel="external" class="label" href="https://npmjs.com/package/material-ui-popup-state">material-ui-popup-state</a>
+                              <a rel="external" class="label" href="https://npmjs.com/package/notistack">notistack</a>
+                              <a rel="external" class="label" href="https://npmjs.com/package/react">react</a>
+                              <a rel="external" class="label" href="https://npmjs.com/package/react-copy-to-clipboard">react-copy-to-clipboard</a>
+                              <a rel="external" class="label" href="https://npmjs.com/package/react-dom">react-dom</a>
+                              <a rel="external" class="label" href="https://npmjs.com/package/react-map-gl">react-map-gl</a>
+                              <a rel="external" class="label" href="https://npmjs.com/package/react-papaparse">react-papaparse</a>
+                              <a rel="external" class="label" href="https://npmjs.com/package/react-refresh">react-refresh</a>
+                              <a rel="external" class="label" href="https://npmjs.com/package/react-router-dom">react-router-dom</a>
+                              <a rel="external" class="label" href="https://npmjs.com/package/react-scripts">react-scripts</a>
+                              <a rel="external" class="label" href="https://npmjs.com/package/react-window">react-window</a>
+                              <a rel="external" class="label" href="https://npmjs.com/package/react-window-infinite-loader">react-window-infinite-loader</a>
+                              <a rel="external" class="label" href="https://npmjs.com/package/subscriptions-transport-ws">subscriptions-transport-ws</a>
+                              <a rel="external" class="label" href="https://npmjs.com/package/yup">yup</a>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="details">
+                          <input type="checkbox" id="project-4-devdependencies">
+                          <label for="project-4-devdependencies" class="summary">keep dependencies up-to-date, code clean, linted, and prettified (also solid, dried, and kissed)</label>
+                          <div class="labels">
+                            <a rel="external" class="label" href="https://npmjs.com/package/eslint-plugin-import">eslint-plugin-import</a>
+                            <a rel="external" class="label" href="https://npmjs.com/package/eslint-plugin-prettier">eslint-plugin-prettier</a>
+                            <a rel="external" class="label" href="https://npmjs.com/package/eslint-plugin-simple-import-sort">eslint-plugin-simple-import-sort</a>
+                            <a rel="external" class="label" href="https://npmjs.com/package/husky">husky</a>
+                            <a rel="external" class="label" href="https://npmjs.com/package/lint-staged">lint-staged</a>
+                            <a rel="external" class="label" href="https://npmjs.com/package/prettier">prettier</a>
+                            <a rel="external" class="label" href="https://npmjs.com/package/source-map-explorer">source-map-explorer</a>
+                          </div>
+                        </li>
+                        <li>make the app beautiful, themable (using Material UI and Font Awesome), and reactive (using Websockets API)</li>
+                        <li>integrate with third parties (e.g. Auth0 for authentication, Optimizely Rollouts for feature flags, etc.)</li>
+                        <li>keep code coverage threshold for unit tests at a reasonable minimum (it's 0% so far)</li>
+                        <li>optimize the code for performance and efficiency (use Service Workers API, Web Workers API, and techniques like memoization, <code>throttle</code> and <code>debounce</code> to solve caching, overfetching/underfetching, exceeding rate limits, unnecessary rerendering, and browser freezing issues, etc.)</li>
+                        <li>keep backend robust and steady (using <code>axios-retry</code> to retry calls, <code>winston</code> for logging, and <code>lightship</code> to report readiness and liveness, etc.)</li>
+                        <li>wrap those into Docker containers and deploy to Kubernetes as part of the microservice-based architecture, check CI/CD pipelines for speed, reliability, and consistency</li>
+                        <li>communicate with other microservices using Kafka or REST APIs</li>
+                        <li>try and maintain a proper attitude, being soft yet reasonable and persuasive, set realistic deadlines and goals and help the team to meet those, lead by example</li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <h6>Back then</h6>
+                  <ul class="timeline">
+                    <li>
+                      <p><em>15<sup>th</sup> July 2019 – 31<sup>st</sup> December 2019</em></p>
+                      <p><strong>Full Stack Developer</strong> at <strong><a href="https://gonewfire.com/" rel="external">Newfire Partners</a></strong></p>
+                      <ol class="inverted">
+                        <li>
+                          <p><strong>Full Stack Developer</strong> at <strong><a href="https://www.prismhr.com/" rel="external">PrismHR</a></strong></p>
+                          <ul>
+                            <li>did code reviews, attended refinement meetings, daily standups, sprint plannings and retrospectives (it's a large enterprise, so Scrum and QA comes first)</li>
+                            <li class="details">
+                              <input type="checkbox" id="project-3">
+                              <label for="project-3" class="summary">designed, built, deployed and maintained <strong>PrismHR Security Center</strong> module (written with Node.js, React, GraphQL, and PostgreSQL)</label>
+                              <div class="labels">
+                                <a rel="external" class="label" href="https://github.com/facebookincubator/create-react-app">create-react-app</a>
+                                <a rel="external" class="label" href="https://github.com/facebook/react">react</a>
+                                <a rel="external" class="label" href="https://github.com/microsoft/TypeScript">typescript</a>
+                                <a rel="external" class="label" href="https://github.com/tannerlinsley/react-table">react-table</a>
+                                <a rel="external" class="label" href="https://github.com/formatjs/react-intl">react-intl</a>
+                                <a rel="external" class="label" href="https://github.com/jquense/yup">yup</a>
+                                <a rel="external" class="label" href="https://github.com/sass/node-sass">node-sass</a>
+                                <a rel="external" class="label" href="https://github.com/prettier/prettier">prettier</a>
+                                <a rel="external" class="label" href="https://github.com/jaredpalmer/formik">formik</a>
+                                <a rel="external" class="label" href="https://github.com/graphql/graphql-js">graphql</a>
+                                <a rel="external" class="label" href="https://github.com/Paratron/hookrouter">hookrouter</a>
+                                <a rel="external" class="label" href="https://github.com/aws-amplify/amplify-js">aws-amplify</a>
+                                <a rel="external" class="label" href="https://github.com/apollographql/apollo-client/tree/master/packages/apollo-boost">apollo-boost</a>
+                                <a rel="external" class="label" href="https://github.com/apollographql/react-apollo">@apollo/react-hooks</a>
+                                <a rel="external" class="label" href="https://github.com/airbnb/enzyme">enzyme</a>
+                                <a rel="external" class="label" href="https://github.com/hapijs/joi">joi</a>
+                                <a rel="external" class="label" href="https://github.com/sequelize/sequelize">sequelize</a>
+                                <a rel="external" class="label" href="https://github.com/winstonjs/winston">winston</a>
+                                <a rel="external" class="label" href="https://github.com/brianc/node-postgres">pg</a>
+                                <a rel="external" class="label" href="https://github.com/lodash/lodash">lodash</a>
+                                <a rel="external" class="label" href="https://github.com/chaijs/chai">chai</a>
+                                <a rel="external" class="label" href="https://github.com/sinonjs/sinon">sinon</a>
+                              </div>
+                            </li>
+                            <li>identified and solved bottlenecks and bugs, found patterns in the existing codebase and refactored everything, again (no joke, this one was my all-time favourite ❤️)</li>
+                          </ul>
+                        </li>
+                      </ol>
+                    </li>
+                    <li>
+                      <p><em>24<sup>th</sup> January 2017 – 4<sup>th</sup> July 2019</em></p>
+                      <p><strong>Full Stack Developer</strong> at <strong><a href="https://binary-studio.com/" rel="external">Binary Studio</a></strong><br><sup><em>(here's my <a href="./assets/documents/introduction-letter-to-binary-studio/" rel="external"><strong>introduction letter</strong></a>)</em></sup></p>
+                      <ol class="inverted">
+                        <li>
+                          <p><strong>Full Stack Developer</strong> at <strong><a href="https://screen.cloud/" rel="external">ScreenCloud</a></strong></p>
+                          <ul>
+                            <li class="details">
+                              <input type="checkbox" id="project-2">
+                              <label for="project-2" class="summary">built, tested, and deployed to Amazon Web Services applications written with Node.js, React, GraphQL, and PostgreSQL</label>
+                              <div class="labels">
+                                <a rel="external" class="label" href="https://github.com/apollographql/apollo-client">apollo-client</a>
+                                <a rel="external" class="label" href="https://github.com/jaredpalmer/formik">formik</a>
+                                <a rel="external" class="label" href="https://github.com/graphql/graphql-js">graphql</a>
+                                <a rel="external" class="label" href="https://github.com/apollographql/graphql-tag">graphql-tag</a>
+                                <a rel="external" class="label" href="https://github.com/ianstormtaylor/slate">slate</a>
+                                <a rel="external" class="label" href="https://github.com/transloadit/uppy">uppy</a>
+                                <a rel="external" class="label" href="https://github.com/jquense/yup">yup</a>
+                                <a rel="external" class="label" href="https://github.com/storybooks/storybook">storybook</a>
+                                <a rel="external" class="label" href="https://github.com/GoogleChrome/puppeteer">puppeteer</a>
+                                <a rel="external" class="label" href="https://github.com/visionmedia/debug">debug</a>
+                                <a rel="external" class="label" href="https://github.com/motdotla/dotenv">dotenv</a>
+                                <a rel="external" class="label" href="https://github.com/expressjs/express">express</a>
+                                <a rel="external" class="label" href="https://github.com/hapijs/joi">joi</a>
+                                <a rel="external" class="label" href="https://github.com/expressjs/morgan">morgan</a>
+                                <a rel="external" class="label" href="https://github.com/jaredhanson/passport">passport</a>
+                                <a rel="external" class="label" href="https://github.com/brianc/node-postgres">pg</a>
+                                <a rel="external" class="label" href="https://github.com/request/request">request</a>
+                                <a rel="external" class="label" href="https://github.com/graphile/postgraphile">postgraphile</a>
+                                <a rel="external" class="label" href="https://github.com/chaijs/chai">chai</a>
+                                <a rel="external" class="label" href="https://github.com/mochajs/mocha">mocha</a>
+                                <a rel="external" class="label" href="https://github.com/standard/standard">standard</a>
+                                <a rel="external" class="label" href="https://github.com/standard/snazzy">snazzy</a>
+                              </div>
+                            </li>
+                            <li>configured caching on CloudFront and Elasticache, WebSockets on Elastic Beanstalk, set up API Gateways and Lambdas, etc.</li>
+                            <li>did code reviews, took care of documentation, planned sprints, participated in retrospectives and daily standups</li>
+                          </ul>
+                        </li>
+                        <li>
+                          <p><strong>Frontend Developer</strong> at <strong>Dynamic Reservations</strong></p>
+                          <ul>
+                            <li class="details">
+                              <input type="checkbox" id="project-1">
+                              <label for="project-1" class="summary">built, tested, and deployed a React/Redux-based frontend</label>
+                              <div class="labels">
+                                <a rel="external" class="label" href="https://github.com/facebookincubator/create-react-app">create-react-app</a>
+                                <a rel="external" class="label" href="https://github.com/mzabriskie/axios">axios</a>
+                                <a rel="external" class="label" href="https://github.com/JedWatson/classnames">classnames</a>
+                                <a rel="external" class="label" href="https://github.com/lodash/lodash">lodash</a>
+                                <a rel="external" class="label" href="https://github.com/moment/moment">moment</a>
+                                <a rel="external" class="label" href="https://github.com/paularmstrong/normalizr">normalizr</a>
+                                <a rel="external" class="label" href="https://github.com/sindresorhus/query-string">query-string</a>
+                                <a rel="external" class="label" href="https://github.com/facebook/react">react</a>
+                                <a rel="external" class="label" href="https://github.com/yahoo/react-intl">react-intl</a>
+                                <a rel="external" class="label" href="https://github.com/reactjs/react-redux">react-redux</a>
+                                <a rel="external" class="label" href="https://github.com/ReactTraining/react-router">react-router</a>
+                                <a rel="external" class="label" href="https://github.com/reactjs/redux">redux</a>
+                                <a rel="external" class="label" href="https://github.com/erikras/redux-form">redux-form</a>
+                                <a rel="external" class="label" href="https://github.com/evgenyrodionov/redux-logger">redux-logger</a>
+                                <a rel="external" class="label" href="https://github.com/redux-saga/redux-saga">redux-saga</a>
+                                <a rel="external" class="label" href="https://github.com/gaearon/redux-thunk">redux-thunk</a>
+                                <a rel="external" class="label" href="https://github.com/Semantic-Org/Semantic-UI-React">semantic-ui-react</a>
+                                <a rel="external" class="label" href="https://github.com/sass/node-sass">node-sass</a>
+                                <a rel="external" class="label" href="https://github.com/prettier/prettier">prettier</a>
+                                <a rel="external" class="label" href="https://github.com/Codeception/codeceptjs">codeceptjs</a>
+                                <a rel="external" class="label" href="https://github.com/segmentio/nightmare">nightmare</a>
+                              </div>
+                            </li>
+                          </ul>
+                        </li>
+                      </ol>
+                      <ul>
+                        <li class="details">
+                          <input type="checkbox" id="other">
+                          <label for="other" class="summary">Also did some other things from time to time &#x1f389;</label>
+                          <div>
+                            <ul>
+                              <li>occasionally I gave lectures at <strong><a href="https://academy.binary-studio.com/" rel="external">Binary Studio Academy</a></strong></li>
+                              <li>sometimes I was being <em>mentored</em> by those whom I <em>mentored</em> 🤷🏼‍♂️</li>
+                              <li>I was good at kitchen talks about pretty much anything</li>
+                              <li>I played video games with them so that we became a better team <em>(debatable)</em></li>
+                            </ul>
+                          </div>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <h6>Way back then</h6>
+                  <ul class="timeline">
+                    <li>
+                      <p><em>1<sup>st</sup> October 2016 &ndash; 31<sup>st</sup> December 2016</em></p>
+                      <p><strong>Full Stack Developer</strong> at <strong><a href="https://www.dutchstar.com/" rel="external">Dutchstar</a></strong></p>
+                      <ul>
+                        <li>built, tested, and deployed applications written with React + Redux and Phalcon + MySQL</li>
+                      </ul>
+                    </li>
+                    <li>
+                      <p><em>10<sup>th</sup> September 2016</em></p>
+                      <p><strong>Relocated</strong> to <strong><a href="https://www.google.com/maps/place/Lviv,+Lviv+Oblast,+Ukraine,+79000/@49.8327787,23.9421957,12z/data=!3m1!4b1!4m5!3m4!1s0x473add7c09109a57:0x4223c517012378e2!8m2!3d49.839683!4d24.029717" rel="external">Lviv</a></strong> <sup><em id="lviv-rent-months"></em></sup></p>
+                    </li>
+                    <li>
+                      <p><em>Some time in 2015</em></p>
+                      <p><strong>Quit smoking</strong> 🥗</p>
+                      <ul>
+                        <li>still love to eat junk food sometimes and have a drink occasionally</li>
+                      </ul>
+                    </li>
+                    <li>
+                      <p><em>25<sup>th</sup> May 2014 &ndash; forever</em></p>
+                      <p><strong>Married</strong> <strong><a href="https://www.fb.com/mila.mandzyuk" rel="external">Lyudmyla Mandzyuk</a></strong> &#x1f469;&#x1f3fb;</p>
+                      <ul>
+                        <li>doing what I'm told</li>
+                      </ul>
+                    </li>
+                    <li>
+                      <p><em>1<sup>st</sup> September 2012 &ndash; 30<sup>th</sup> September 2016</em></p>
+                      <ul>
+                        <li class="details">
+                          <input type="checkbox" id="service-center-databases-lead">
+                          <label for="service-center-databases-lead" class="summary">
+                            <strong>Service Center Databases Lead</strong> at <strong><a href="https://www.sebn.com/en/" rel="external">Sumitomo Electric Bordnetze</a> Ukraine</strong>
+                          </label>
+                          <div>
+                            <ul>
+                              <li>managed MySQL multi-master clusters, Oracle failover clusters, Microsoft SQL mirrored/replicated servers (monitoring, backup/restore, users/groups/roles, schemas)</li>
+                              <li>built and benchmarked fast, efficient SQL queries</li>
+                              <li>optimized database engines, indexes, etc.</li>
+                              <li>crafted web dashboards, reports using HTML, CSS, JavaScript, SQL</li>
+                            </ul>
+                          </div>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <p><em>1<sup>st</sup> September 2011 &ndash; 30<sup>th</sup> September 2016</em></p>
+                      <ul>
+                        <li class="details">
+                          <input type="checkbox" id="it-production-subdivision-manager">
+                          <label for="it-production-subdivision-manager" class="summary">
+                            <strong>IT Production Subdivision Manager</strong> at <strong><a href="https://www.sebn.com/en/" rel="external">Sumitomo Electric Bordnetze</a> Ukraine</strong>
+                          </label>
+                          <div>
+                            <ul>
+                              <li>designed computer-aided manufacturing processes</li>
+                              <li>interconnected different production systems’ databases (push or pull data using replication, triggers, scheduled events, cron jobs)</li>
+                              <li>built high-availability systems, minimized downtime</li>
+                              <li>designed and built BDE (BetriebsDatenErfassung) &mdash; data aggregator system designed to assist in planning, manufacturing, monitoring, and controlling</li>
+                              <li>analyzed and transformed data</li>
+                              <li>wrote docs, manuals, guidelines, and memos</li>
+                            </ul>
+                          </div>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <p><em>9<sup>th</sup> April 2008</em></p>
+                      <p><strong>Was officially hired (employee #943)</strong> by <strong><a href="https://www.sebn.com/en/" rel="external">Sumitomo Electric Bordnetze</a> Ukraine</strong><br>(worked as a contractor previously)</p>
+                    </li>
+                    <li>
+                      <p><em>14<sup>th</sup> February 2008 &ndash; 31<sup>st</sup> January 2011</em></p>
+                      <ul>
+                        <li class="details">
+                          <input type="checkbox" id="software-engineer">
+                          <label for="software-engineer" class="summary">
+                            <strong>Software Engineer</strong> at <strong><a href="https://www.sebn.com/en/" rel="external">Sumitomo Electric Bordnetze</a> Ukraine</strong>
+                          </label>
+                          <div>
+                            <ul>
+                              <li>designed UI and UX for native applications and web pages</li>
+                              <li>built simple apps to assist in manufacturing process using Delphi, VB, Java, HTML, CSS, JavaScript, PHP, SQL</li>
+                              <li>managed Microsoft SQL, MySQL, and Firebird databases</li>
+                            </ul>
+                          </div>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <p><em>February 2006 &ndash; August 2007</em></p>
+                      <ul>
+                        <li class="details">
+                          <input type="checkbox" id="graphic-designer">
+                          <label for="graphic-designer" class="summary">
+                            <strong>Graphic Designer</strong> at <strong>Terminal</strong>
+                          </label>
+                          <div>
+                            <ul>
+                              <li>designed booklets, flyers, business cards, posters using Adobe CS (Photoshop, Illustrator, InDesign)</li>
+                              <li>managed inkjet plotters and printers</li>
+                              <li>built websites using Macromedia Dreamweaver, Macromedia Flash (ActionScript)</li>
+                              <li>started smoking 🚬</li>
+                            </ul>
+                          </div>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <p><em>April 2004 &ndash; December 2004</em></p>
+                      <ul>
+                        <li class="details">
+                          <input type="checkbox" id="system-administrator">
+                          <label for="system-administrator" class="summary">
+                            <strong>System Administrator</strong> at <strong>Pyramid</strong>
+                          </label>
+                          <div>
+                            <ul>
+                              <li>managed a network of dozen Windows workstations and one Linux gateway (DHCP, DNS, proxy, ACLs)</li>
+                              <li>kept PCs health (install OS over PXE, backup/restore, antivirus, software updates, hardware upgrades etc.)</li>
+                            </ul>
+                          </div>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <p><em>16<sup>th</sup> May 2003</em></p>
+                      <p><strong>Got my internal passport</strong> (with a traditionally awkward photo, of course) &mdash; can't wait to replace it with a new Passport of the Citizen of Ukraine</p>
+                    </li>
+                    <li>
+                      <a id="resume" href="#childhood" title="Show childhood photos">
+                        <span class="dots">
+                          <span class="dot"></span>
+                          <span class="dot"></span>
+                          <span class="dot"></span>
+                        </span>
+                        <em>couldn't do much really for the first few years...</em>
+                      </a>
+                    </li>
+                    <li>
+                      <p><em>6<sup>th</sup> October 1986</em></p>
+                      <p><strong>Born</strong> in <strong><a href="https://www.google.com/maps/place/Ternopil,+Ternopil+Oblast,+Ukraine,+46003/@49.5484448,25.5276291,12z/data=!3m1!4b1!4m5!3m4!1s0x473036ad4b82ce75:0xc484a447edb154e8!8m2!3d49.553517!4d25.594767" rel="external">Ternopil, Ukraine</a></strong> <sup><em>&mdash; Thanks, mom and dad!</em></sup></p>
+                    </li>
+                  </ul>
+                </section>
               </div>
               <div class="six wide column">
-                <!-- Languages -->
-                <!-- Skills -->
-                <!-- Character -->
-                <!-- Likes -->
-                <!-- Dislikes -->
-                <!-- Wants -->
-                <!-- Education -->
-                <!-- Articles -->
+                <section>
+                  <h3>Languages</h3>
+                  <p class="tags small"><a href="/uk-ua" hreflang="uk" rel="alternate" class="language" lang="uk">&#x1f1fa;&#x1f1e6; <span>УКРАЇНСЬКА</span></a> <a href="/ru-ru" hreflang="ru" rel="alternate" class="language" lang="ru">&#x1f1f7;&#x1f1fa; <span>РУССКИЙ</span></a> <span class="language" lang="en">&#x1f1fa;&#x1f1f8; ENGLISH</span></p>
+                </section>
+                <section>
+                  <h3>Skills</h3>
+                  <p class="tags small">HTML CSS JS UI/UX A11Y I18N PWA SEO JQUERY REACT REDUX GRAPHQL ANGULARJS CRA WEBPACK GRUNT GULP NODEJS NPM BOOTSTRAP <span class="nowrap">SEMANTIC UI</span> LESS SASS CSS-IN-JS PRETTIER ESLINT JEST ENZYME AWS SERVERLESS TRAVIS <span class="nowrap">MICROSOFT OFFICE</span> PHOTOSHOP ILLUSTRATOR PHP DELPHI VB VBA VBSCRIPT LINUX WINDOWS MACOS MYSQL POSTGRESQL MICROSOFT SQL DB2 CCNA ITIL</p>
+                </section>
+                <section>
+                  <h3>Character</h3>
+                  <p class="tags small">EXPLORER STRAIGHTFORWARD <a href="https://www.16personalities.com/entp-personality" rel="external">DEBATER</a> DEVOTED PEDANTIC AGNOSTIC CONTENTIOUS PROCRASTINATOR RELEVANT EMPATHETIC STORYTELLER CONFIDENT CONSISTENT CHALLENGING</p>
+                </section>
+                <section>
+                  <h3>Likes&#x1f603;</h3>
+                  <p class="tags small">HUMOUR PATIENCE METAPHORS DOGS MOVIES AAPL DEMOCRACY <span class="nowrap">FC BARCELONA</span> JÄGERMEISTER LVIV FRISBEE <button id="midnightblue" class="color midnightblue">MIDNIGHT BLUE</button> ELECTROPOP CUCINA ITALIANA ‘80S SELF-EDUCATION <button id="meh" class="audio"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M576 256c0 100.586-53.229 189.576-134.123 239.04-7.532 4.606-17.385 2.241-21.997-5.304-4.609-7.539-2.235-17.388 5.304-21.997C496.549 424.101 544 345.467 544 256c0-89.468-47.452-168.101-118.816-211.739-7.539-4.609-9.913-14.458-5.304-21.997 4.608-7.539 14.456-9.914 21.997-5.304C522.77 66.424 576 155.413 576 256zm-96 0c0-66.099-34.976-124.572-88.133-157.079-7.538-4.611-17.388-2.235-21.997 5.302-4.61 7.539-2.236 17.388 5.302 21.998C418.902 152.963 448 201.134 448 256c0 54.872-29.103 103.04-72.828 129.779-7.538 4.61-9.912 14.459-5.302 21.998 4.611 7.541 14.462 9.911 21.997 5.302C445.024 380.572 480 322.099 480 256zm-138.14-75.117c-7.538-4.615-17.388-2.239-21.998 5.297-4.612 7.537-2.241 17.387 5.297 21.998C341.966 218.462 352 236.34 352 256s-10.034 37.538-26.841 47.822c-7.538 4.611-9.909 14.461-5.297 21.998 4.611 7.538 14.463 9.909 21.998 5.297C368.247 314.972 384 286.891 384 256s-15.753-58.972-42.14-75.117zM256 88.017v335.964c0 21.436-25.942 31.999-40.971 16.971L126.059 352H24c-13.255 0-24-10.745-24-24V184c0-13.255 10.745-24 24-24h102.059l88.971-88.954C230.037 56.038 256 66.551 256 88.017zm-32 19.311l-77.659 77.644A24.001 24.001 0 0 1 129.372 192H32v128h97.372a24.001 24.001 0 0 1 16.969 7.028L224 404.67V107.328z"/></svg> MEH
+                    <audio preload="none">
+                      <source src="./assets/sounds/meh.mp3" type="audio/mpeg">
+                      </audio>
+                    </button> <span class="nowrap">ATTENTION TO DETAILS</span> GRAMMAR SPELLCHECK SEMANTICS MINI-SERIES <span class="nowrap">RYAN GOSLING</span> <span class="nowrap">EMMA STONE</span> ​<span class="nowrap">CURAPROX 5460</span></p>
+                </section>
+                <section>
+                  <h3>Dislikes&#x1f61e;</h3>
+                  <p class="tags small"><span class="nowrap">OWN BAD HABITS</span> POLITICS RACISM ASS-KISSERS VODKA INCOMPETENCE ARROGANCE ENVY GOLF <button id="chartreuse" class="color chartreuse">CHARTREUSE</button> INSECTS METRO PREJUDICE REALITY-SHOWS JŪRMALA</p>
+                </section>
+                <section>
+                  <h3>Wants&#x1f97a;</h3>
+                  <p class="tags small bulleted"><span class="tag">TO BE FIT AND HEALTHY</span><span class="tag">TO OWN MY SCHEDULE</span><span class="tag">TO READ MORE</span><span class="tag">TO OPEN A CAFÉ</span><span class="tag">TO BE BRAVE</span><span class="tag">TO BECOME A SUPERHERO</span><span class="tag">TO LISTEN AND LEARN</span></p>
+                </section>
+                <section>
+                  <h3>Education</h3>
+                  <ul class="timeline">
+                    <li>
+                      <div><em>Every day</em></div>
+                      <p class="tags bulleted">
+                        <span class="tag"><a href="https://dev.to/" rel="external"><strong>dev.to</strong></a></span><span class="tag"><a href="https://css-tricks.com/" rel="external"><strong>CSS-Tricks</strong></a></span><span class="tag"><a href="https://frontendfront.com/" rel="external"><strong>Front-End Front</strong></a></span><span class="tag"><a href="https://dribbble.com/" rel="external"><strong>Dribbble</strong></a></span><span class="tag"><a href="https://goodui.org/" rel="external"><strong>GoodUI</strong></a></span><span class="tag"><a href="https://egghead.io/" rel="external"><strong>egghead.io</strong></a></span><span class="tag"><a href="https://theverge.com/" rel="external"><strong>The Verge</strong></a></span><span class="tag"><a href="https://uncrate.com/" rel="external"><strong>Uncrate</strong></a></span>
+                      </p>
+                    </li>
+                    <li>
+                      <div><em>December 2005 &ndash; April 2006</em></div>
+                      <div><strong>Certificates of CCNA Course Completion</strong> at <a href="https://www.netacad.com/" rel="external"><strong>Cisco Networking Academy Program</strong></a></div>
+                    </li>
+                    <li>
+                      <div><em>1<sup>st</sup> September 2003 &ndash; 30<sup>th</sup> June 2008</em></div>
+                      <div><strong>Bachelor's degree</strong> in <strong>computer science</strong> at <a href="http://tntu.edu.ua//?p=en/home" rel="external"><strong>Ternopil National Technical University</strong></a></div>
+                    </li>
+                    <li>
+                      <div><em>1<sup>st</sup> October 1995 &ndash; 23<sup>rd</sup> May 1999</em></div>
+                      <div><strong>Certificate of graduation</strong> at <strong>Ternopil Art School for Children</strong></div>
+                    </li>
+                    <li>
+                      <div><em>1<sup>st</sup> September 1993 &ndash; 21<sup>st</sup> June 2003</em></div>
+                      <div><strong>Certificate of graduation</strong> at <strong>№20 Middle School of General Education</strong></div>
+                    </li>
+                  </ul>
+                </section>
+                <section>
+                  <h3>Articles</h3>
+                  <p>None published <sup><em>yet</em></sup></p>
+                </section>
               </div>
             </div>
           </div>
