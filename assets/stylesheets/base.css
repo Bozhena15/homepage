@@ -24,6 +24,7 @@
   body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
       Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    background-color: rgb(247, 207, 155);
   }
   h1,
   h2,
@@ -261,8 +262,8 @@
   .page {
     position: relative;
     padding: 3em;
-    background: white;
-    box-shadow: 0 10px 100px 0 rgba(34, 36, 38, 0.1);
+    background: rgb(255, 255, 255);
+    box-shadow: 0 10px 100px 0 rgba(233, 172, 92, 0.1);
     transition: box-shadow 0.2s linear;
   }
   .page[style^="border-color"] {
@@ -284,7 +285,7 @@
   }
   @media only screen {
     .page:hover {
-      box-shadow: 0 10px 100px 0 rgba(34, 36, 38, 0.3);
+      box-shadow: 0 10px 100px 0 rgba(233, 172, 92, 0.767);
     }
   }
   @media only screen and (max-width: 767px) {
@@ -840,7 +841,7 @@
     position: relative;
   }
   .color.midnightblue:before {
-    background-color: midnightblue;
+    background-color: rgb(206, 129, 13);
   }
   .color.chartreuse:before {
     background-color: chartreuse;
